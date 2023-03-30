@@ -23,7 +23,7 @@ public class Paris {
 	        WebElement email = driver.findElement(By.id("ap_email"));
 	        email.sendKeys("ultimateuthra@gmail.com");
 	        WebElement password = driver.findElement(By.id("ap_password"));
-	        password.sendKeys("muppets123");
+	        password.sendKeys("muppets12");
 	        driver.findElement(By.id("signInSubmit")).click();
 	        WebElement a = driver.findElement(By.className("currentlyReadingShelf"));
 	        assert a.isDisplayed();
